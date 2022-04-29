@@ -1,0 +1,22 @@
+{
+  "name": "@sillyangel/bananajs",
+  "version": "1.0.0",
+  "description": "Banana js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banana-nana/Banana.js.git"
+  },
+  "keywords": [
+    "Bananajs"
+  ],
+  "author": "Banana-nana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banana-nana/Banana.js/issues"
+  },
+  "homepage": "https://github.com/banana-nana/Banana.js#readme"
+}
