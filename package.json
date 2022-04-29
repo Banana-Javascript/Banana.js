@@ -1,6 +1,6 @@
 {
   "name": "@sillyangel/bananajs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Banana js",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sillyangel/Banana.js/issues"
   },
-  "homepage": "https://github.com/sillyangel/Banana.js#readme"
+  "homepage": "https://github.com/sillyangel/Banana.js#readme",
+  "dependencies": {
+    "npm": "^8.8.0"
+  }
 }

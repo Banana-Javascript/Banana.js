@@ -1,4 +1,6 @@
-  console.log("Bananajs is Starting up.")
+const log = require('./modules/log.js')
+
+log("Bananajs is Starting up.")
 
   // Vars and Stuff
 
@@ -6,15 +8,15 @@
   var CODEHOLDER = "sillyangel"
 
 
-    console.log(`Banana.js, ${verison}, made by ${CODEHOLDER}`)
+    .log(`Banana.js, ${verison}, made by ${CODEHOLDER}`)
 
 
 function Banana(string) {
   if (string === "NodejsCool") {
-    console.log("Nodejs is Cool")
+    log("Nodejs is Cool")
   }
   if(string === "help") {
-    console.log("you mean Bhelp")
+    log("you mean Bhelp?")
   }
 }
 
