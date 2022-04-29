@@ -1,6 +1,6 @@
 {
   "name": "@sillyangel/bananajs",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Banana js",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/sillyangel/Banana.js.git"
   },
   "publishConfig": {
-  "registry":"https://npm.pkg.github.com/"
+  "registry":"https://registry.npmjs.com/"
 },
   "keywords": [
     "Bananajs"
