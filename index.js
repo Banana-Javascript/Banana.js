@@ -3,3 +3,4 @@ function isPass(string) {
 }
 
 module.exports = isPass
+
