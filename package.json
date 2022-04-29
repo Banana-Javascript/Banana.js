@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/sillyangel/Banana.js.git"
   },
-  "publishConfig": {
-  "registry":"https://registry.npmjs.com/"
-},
   "keywords": [
     "Bananajs"
   ],
