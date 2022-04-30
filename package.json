@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sillyangel/Banana.js#readme",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "npm": "^8.8.0"
   }
 }
