@@ -1,1 +1,6 @@
-.src
+.replit
+replit.nix
+.test.js
+.test
+.tf
+/tf

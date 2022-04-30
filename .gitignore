@@ -1,2 +1,5 @@
 .replit
 replit.nix
+.test.js
+.tf
+/tf
