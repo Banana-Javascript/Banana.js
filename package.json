@@ -1,6 +1,6 @@
 {
   "name": "@sillyangel/bananajs",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Banana js",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "Bananajs"
   ],
   "author": "Banana-nana",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sillyangel/Banana.js/issues"
   },
