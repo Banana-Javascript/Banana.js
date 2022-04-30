@@ -8,15 +8,15 @@ log("Bananajs is Starting up.")
   var CODEHOLDER = "sillyangel"
 
 
-    .log(`Banana.js, ${verison}, made by ${CODEHOLDER}`)
+ 
 
 
 function Banana(string) {
-  if (string === "NodejsCool") {
-    log("Nodejs is Cool")
+  if (string === "ver") {
+      return log(`Banana.js, ${verison}, made by ${CODEHOLDER}`)
   }
-  if(string === "help") {
-    log("you mean Bhelp?")
+  if (string === "Help") {
+    return log("Check out https://docs.banana-corp.tk")
   }
 }
 
