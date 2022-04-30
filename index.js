@@ -1,21 +1,13 @@
-const log = require('./modules/log.js')
-const fs = require("fs")
+const log = require("./modules/log.js")
 
-
-  // Vars and Stuff
-
-  var verison = "v1.1.7"
-  var CODEHOLDER = "sillyangel"
-
-
-log(`Bananajs ${verison}, made by ${CODEHOLDER}`) ;
-
+var verison = "1.0.0"
+var author = "@sillyangel"
 
 function Banana(string) {
-  if (string === "ver") {
-    return log('Bananajs is, ' + verison);
-  } else {
-    return console.error("not a command");
-  }
+    if (string === "ver") {
+        log("is-Banana verison, " + verison + " and created by " + author);
+    }
 }
+
+module.exports = Banana;
 
