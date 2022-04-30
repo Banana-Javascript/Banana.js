@@ -1,6 +1,6 @@
 .replit
 replit.nix
 .test.js
-.test
 .tf
 /tf
+.node_modules

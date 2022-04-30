@@ -3,3 +3,4 @@ replit.nix
 .test.js
 .tf
 /tf
+.node_modules

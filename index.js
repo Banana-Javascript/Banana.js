@@ -4,7 +4,7 @@ const fs = require("fs")
 
   // Vars and Stuff
 
-  var verison = "v1.1.0"
+  var verison = "v1.1.7"
   var CODEHOLDER = "sillyangel"
 
 
@@ -13,11 +13,8 @@ log(`Bananajs ${verison}, made by ${CODEHOLDER}`) ;
 
 function Banana(string) {
   if (string === "ver") {
-      return log(`Banana.js, ${verison}, made by ${CODEHOLDER}`)
-  }
-  if (string === "Help") {
-    return log("Check out https://docs.banana-corp.tk")
+    return log('Bananajs is, ' + verison);
+  } else {
+    return console.error("not a command");
   }
 }
-
-module.exports = Banana;
