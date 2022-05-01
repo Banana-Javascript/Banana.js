@@ -4,3 +4,4 @@ replit.nix
 .tf
 /tf
 .node_modules
+create.sh
