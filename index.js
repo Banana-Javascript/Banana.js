@@ -23,14 +23,7 @@ class Login {
     }
     getInfo() {
         return { name: this.name, email: this.email };
-    }
-    
-
-
-    
-    
-
-}
+    }}
 
 class Banana {
     constructor(name) {
@@ -46,6 +39,13 @@ class Banana {
 modules.exports.Banana = Banana;
 modules.exports.Login = Login;
 
+const banana = new Banana;
+var command1;
+module.exports {
+    Login: async (command) => {
+        if(command1 === "Login") return log("Enter in Username"), log("Enter in Password")
+    }
+}
 
 
 
