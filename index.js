@@ -1,48 +1,51 @@
 const log = require("./modules/log.js")
 const client = require ("./modules/client.js")
+const bananajs = require("./modules/banana.js");
+const awc = require("./modules/awc.js");
+const fs = require('fs');
+
 
 
 var verison = "2.0.0"
 var author = "@sillyangel"
 
 
-class Banana {
+class Login {
     // Setup
-    constructor(_command) {
-        log("Bananajs, v" + verison + " made by sillyangel")
-
-        this.command = _command;
-
-
-    }
-    getCommand() {
-        return this.command;
-    }
-
-    printDescription() {
-        return log('Welcome to Bananajs Read https://docs.banana-corp.tk/ for more info.');
-    }
-    static Help() {
-        return log('Read https://docs.banana-corp.tk/ for more info');
-    }
-}
-
-
-
-class User {
-    constructor(email, name) {
+    constructor(name, email) {
+        this.name  = name;
         this.email = email;
-        this.name = name;
+
+        // Commands 
+        this.command = _command;
+        this.verison = "2.0.0"
+
     }
-    getemail() {
-        return this.email;
+    getInfo() {
+        return { name: this.name, email: this.email };
     }
-    getname() {
-        return this.name;
-    }
+    
+
+
+    
+    
+
 }
 
+class Banana {
+    constructor(name) {
+        this.command = name;
+
+    }
+    getdiscription() {
+        if (this.command === "") {
+            
+        }
+    }
+}
+modules.exports.Banana = Banana;
+modules.exports.Login = Login;
 
 
-module.exports = Banana;
-module.exports = User;
+
+
