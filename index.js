@@ -41,9 +41,17 @@ modules.exports.Login = Login;
 
 const banana = new Banana;
 var command1;
-module.exports {
+var cname;
+module.exports = {
     Login: async (command) => {
-        if(command1 === "Login") return log("Enter in Username"), log("Enter in Password")
+        if(command1 === "Login") return log("Enter in Username"), log("Enter in Password");
+    },
+    Client: async (string) => {
+        if(string) {
+            return string;
+        } else {
+            console.error("you need to input a string");
+        }
     }
 }
 

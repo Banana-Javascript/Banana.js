@@ -13,7 +13,11 @@
   "keywords": [
     "Bananajs"
   ],
-  "author": "Banana-nana",
+  "author": {
+    "name": "sillyangel",
+    "email": "support@banana-corp.tk",
+    "url": "https://banana-corp.tk"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sillyangel/Banana.js/issues"
