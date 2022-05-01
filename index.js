@@ -12,7 +12,7 @@ class Banana {
         log("Bananajs, v" + verison + " made by sillyangel")
 
         this.command = _command;
-        
+
 
     }
     getCommand() {
@@ -20,12 +20,14 @@ class Banana {
     }
 
     printDescription() {
-        return log('Welcome to Bananajs Read https://docs.banana-corp.tk/ for more info.')
+        return log('Welcome to Bananajs Read https://docs.banana-corp.tk/ for more info.');
     }
-    static equals (_math) {
-       this.math = _math;
+    static Help() {
+        return log('Read https://docs.banana-corp.tk/ for more info');
     }
 }
+
+
 
 class User {
     constructor(email, name) {
