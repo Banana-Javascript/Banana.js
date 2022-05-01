@@ -30,8 +30,8 @@ class Banana {
         this.command = name;
 
     }
-    getdiscription() {
-        if (this.command === "") {
+    getdiscription(commandName) {
+        if (this.commandName === "") {
             
         }
     }
