@@ -5,3 +5,5 @@ replit.nix
 /tf
 .node_modules
 create.sh
+.bin
+/bin
