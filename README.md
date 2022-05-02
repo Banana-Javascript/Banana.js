@@ -1,5 +1,9 @@
-![image](src/image.png)
-# Banana.js
+<p align="center">
+  <img width="300" src="src/image.png" alt="Logo">
+ 
+</p>
+ <h1 align="center"> Banana.js </h1> 
+ <img align="left "src="https://img.shields.io/github/license/sillyangel/banana.js?color=yellow&style=plastic">
 Welcome Banana.js a NPM Package
 
 ### How to Install Banana.js
