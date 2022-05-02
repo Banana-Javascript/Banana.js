@@ -6,5 +6,3 @@ class Client {
     }
 }
 
-
-modules.exports = Client;

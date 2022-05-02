@@ -1,14 +1,8 @@
 const log = require("./modules/log.js")
-const client = require ("./modules/client.js")
-const bananajs = require("./modules/banana.js");
-const awc = require("./modules/awc.js");
 const fs = require('fs');
-
-
 
 var verison = "2.0.0"
 var author = "@sillyangel"
-
 
 class Login {
     // Setup
