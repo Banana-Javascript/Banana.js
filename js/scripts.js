@@ -52,3 +52,24 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+class user {
+    constructor(name, age) {
+        this.name = name
+        this.age = age
+
+        console.log(name, age)
+    }
+    getage() {
+        console.log(age)
+    }
+    getname() {
+        console.log(name)
+    }
+}
+
+const user = new user("Angel", "12")
+
+console.log(user.getage())
+console.log(user.getname())
