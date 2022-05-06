@@ -1,41 +1,6 @@
 const log = require("./modules/log.js")
 const fs = require('fs');
 
-var verison = "2.0.0"
-var author = "@sillyangel"
-
-class Login {
-    // Setup
-    constructor(name, email) {
-        this.name  = name;
-        this.email = email;
-
-        // Commands 
-        this.command = _command;
-        this.verison = "2.0.0"
-
-    }
-    getInfo() {
-        return { name: this.name, email: this.email };
-    }}
-
-class Banana {
-    constructor(name) {
-        this.command = name;
-
-    }
-    getdiscription(commandName) {
-        if (this.commandName === "") {
-            
-        }
-    }
-}
-modules.exports.Banana = Banana;
-modules.exports.Login = Login;
-
-const banana = new Banana;
-var command1;
-var cname;
 module.exports = {
     Login: async (command) => {
         if(command1 === "Login") return log("Enter in Username"), log("Enter in Password");
@@ -49,4 +14,6 @@ module.exports = {
     }
 }
 log("works!")
+
+
 
