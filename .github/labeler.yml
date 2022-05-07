@@ -1,0 +1,11 @@
+modules:
+  - any: ["modules/**/*"]
+
+backend:
+    - any: ["backend/**/*"]
+
+documentation:
+  - any: ["**/*.md"]
+
+.github:
+  - any: [".github/**/*"]
