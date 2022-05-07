@@ -35,6 +35,6 @@ W.I.P
 ```
 
 ### Documention
-The Documention is a W.I.P But you can see them in [https://bananajs-docs.vercel.app](https://bananajs-docs.vercel.app)
+The Documention is a Work on Process
 
 
